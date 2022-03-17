@@ -58,7 +58,7 @@ describe('contract: errors', function () {
         }
     })
 
-    it('errors when a non-existant event is listened for', function () {
+    it('errors when a non-existent event is listened for', function () {
         const expected = 'Event "void" doesn\'t exist in this contract';
         const contract = new eth.Contract(abi);
 
